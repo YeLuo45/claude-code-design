@@ -1,0 +1,62 @@
+/* Purple gradient Hero background */
+.VPHome {
+  background: linear-gradient(135deg, #0f0a1e 0%, #1a1033 50%, #251442 100%);
+  padding: 2rem 0;
+}
+
+/* Title gradient text */
+.VPHero .name {
+  font-size: 3.5rem;
+  background: linear-gradient(135deg, #a78bfa 0%, #818cf8 50%, #6366f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.VPHero .text {
+  background: linear-gradient(135deg, #c4b5fd 0%, #a5b4fc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.VPHero .tagline {
+  color: #a5b4fc;
+  font-size: 1.25rem;
+}
+
+/* Feature cards */
+.VPFeature {
+  background: rgba(139, 92, 246, 0.08) !important;
+  border: 1px solid rgba(139, 92, 246, 0.2) !important;
+}
+
+.VPFeature:hover {
+  background: rgba(139, 92, 246, 0.15) !important;
+  border-color: rgba(139, 92, 246, 0.4) !important;
+}
+
+/* Nav bar */
+.VPNav {
+  background: rgba(15, 10, 30, 0.9) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+/* Sidebar */
+.VPSidebar {
+  background: rgba(15, 10, 30, 0.5) !important;
+}
+
+/* Code blocks */
+.vp-code-group .tabs {
+  background: rgba(30, 20, 60, 0.8) !important;
+}
+
+/* Custom colors */
+:root {
+  --vp-c-brand-1: #8b5cf6;
+  --vp-c-brand-2: #7c3aed;
+  --vp-c-brand-3: #6d28d9;
+  --vp-c-brand-soft: rgba(139, 92, 246, 0.12);
+}
